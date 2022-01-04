@@ -85,7 +85,7 @@ html {
   font: normal 700 25px/12px var(--roboto);
 }
 .site-main .project-area .grid .our-project .img-fluid {
-  width: 450px; /* You can set the dimensions to whatever you want */
+  width: 450px;
   height: 250px;
   object-fit: cover;
 }
@@ -287,10 +287,4 @@ footer.footer-area .social a:hover > i {
 
 .contact-area .contactDetails {
   padding-top: 5rem;
-}
-
-.carousel-item {
-  height: 600px;
-  width: 1000px;
-  object-fit: cover;
 }
