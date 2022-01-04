@@ -39,7 +39,7 @@
                             <a class="nav-link" href="#skill">Skills</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#projects">Projects</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#contactme">Contact Me</a>
@@ -100,7 +100,10 @@
                 <span>myself</span>
               </h2>
               <div class="paragraph py-4 w-7">
-                <p class=:para>I am currently an undergraduate student at BRAC University. Exploring my field as much as possible and learning new stuffs. I am currently learning web development and my aim is become a professional fullstack developer. Besides, I am also a senior executive of BRAC University Computer Club. Along with that working as a campus ambassador at Footylight. My job is to perform marketing analysis in social media. </p>
+                <p class=:para>I am currently an undergraduate student at BRAC University. Exploring my field as much as possible and learning new stuffs.
+                   I am currently learning web development and my aim is become a professional fullstack developer.
+                  Besides, I am the Vice President of BRAC University Computer Club. Along with that working as a campus ambassador at Footylight.
+                   My job is to perform marketing analysis in social media. </p>
               </div>
               <form method="get" action="cv/CV.pdf">
               <button type="submit" class="btn button primary-button">Download CV</button>
@@ -145,6 +148,14 @@
                 </div>
                 <div class="bar">
                   <div class="info">
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="progress-line js">
+                    <span></span>
+                  </div>
+                </div>
+                <div class="bar">
+                  <div class="info">
                     <span>Spring Boot</span>
                   </div>
                   <div class="progress-line spring">
@@ -179,6 +190,92 @@
 
         <!-- ======================== End skills Area ==================== -->
 
+        <!--  ======================= Project Area =============================  -->
+
+        <section class="project-area" id="projects">
+          <div class="container">
+              <div class="project-title pb-5">
+                  <h1 class="text-uppercase title-h1">My Projects</h1>
+              </div>
+
+              <div class="button-group">
+                  <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                  <button type="button" data-filter=".popular">Popular</button>
+                  <button type="button" data-filter=".latest">Latest</button>
+                  <button type="button" data-filter=".following">Following</button>
+                  <button type="button" data-filter=".upcoming">Upcoming</button>
+              </div>
+
+              <div class="row grid">
+                  <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                      <div class="our-project">
+                          <div class="img">
+                              <a class="test-popup-link" href="./Projects/cholokini.PNG">
+                                  <img src="./Projects/cholokini.PNG" alt="portfolio-1" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="title py-4">
+                              <h4 class="text-uppercase">Cholokini.com</h4>
+                              <span class="text-secondary">Complete e-commerce site with PHP</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                      <div class="our-project">
+                          <div class="img">
+                              <a class="test-popup-link" href="./Projects/DiceGame.PNG">
+                                  <img src="./Projects/DiceGame.PNG" alt="portfolio-2" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="title py-4">
+                              <h4 class="text-uppercase">Dice Game</h4>
+                              <span class="text-secondary">2 player dice game with vanilla js</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                      <div class="our-project">
+                          <div class="img">
+                              <a class="test-popup-link" href="./Projects/guessGame.PNG">
+                                  <img src="./Projects/guessGame.PNG" alt="portfolio-3" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="title py-4">
+                              <h4 class="text-uppercase">Guess Game</h4>
+                              <span class="text-secondary">Guessing game with vanilla JS</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                      <div class="our-project">
+                          <div class="img">
+                              <a class="test-popup-link" href="./Projects/Counter.PNG">
+                                  <img src="./Projects/Counter.PNG" alt="Counter" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="title py-4">
+                              <h4 class="text-uppercase">Counter</h4>
+                              <span class="text-secondary">Made a simple semester counter with js</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                      <div class="our-project">
+                          <div class="img">
+                              <a class="test-popup-link" href="./Projects/clock.PNG">
+                                  <img src="./Projects/clock.PNG" alt="clock" class="img-fluid">
+                              </a>
+                          </div>
+                          <div class="title py-4">
+                              <h4 class="text-uppercase">Analogue Clock</h4>
+                              <span class="text-secondary">My first ever project with js</span>
+                          </div>
+                      </div>
+                  </div>       
+          </div>
+      </section>
+
+      <!--  ======================= End Project Area =============================  -->
         <!-- ======================== Contact Me  Area ==================== -->
 
         <section class="contact-area" id="contactme">
